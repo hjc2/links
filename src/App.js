@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import cow from './cow.gif';
+
 import './App.css';
 
 function App() {
@@ -6,6 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={cow} className="App-cow" alt="cow" />
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
